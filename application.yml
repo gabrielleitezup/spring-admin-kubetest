@@ -1,10 +1,10 @@
-spring:
-  cloud:
-    discovery:
-      client:
-        simple:
-          instances:
-            Dashboard:
-            - uri: http://localhost:8080
-              metadata:
-                management.context-path: /manage
+#spring:
+#  cloud:
+#    discovery:
+#      client:
+#        simple:
+#          instances:
+#            Dashboard:
+#            - uri: http://localhost:8080
+#              metadata:
+#                management.context-path: /manage
